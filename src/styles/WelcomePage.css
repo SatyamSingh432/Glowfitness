@@ -5,10 +5,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  /* font-family: "Funnel Display", sans-serif; */
 }
 
 .hero-page-continer-top {
-  padding: 80px 60px;
+  padding: 50px 60px 0 60px;
 }
 
 .hero-page-container-top-left {
@@ -17,16 +20,21 @@
   gap: 15px;
   padding-top: 80px;
   width: 50%;
+  max-width: 700px;
 }
 
 .hero-page-container-top-left-heading {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: 3px;
 }
 
 .color-pink {
   color: var(--primary-color-pink);
+}
+
+.color-skyblue {
+  color: var(--primary-color);
 }
 
 .hero-page-container-top-left-btn-container {
@@ -45,4 +53,101 @@
 .hero-page-container-top-left-sub-heading span {
   color: black;
   font-weight: 600;
+}
+
+.hero-page-continer-bottom {
+  padding: 50px 60px 0 60px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero-page-container-bottom-child {
+  /* border: 1px solid black; */
+  background-color: #ffff;
+  color: var(--text-medium);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-page-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.women-img-container {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  bottom: 100px;
+  right: 60px;
+  z-index: 2;
+}
+
+.women-img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.pattern-pink-container {
+  position: absolute;
+  right: 10px;
+  bottom: 350px;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
+.pattern-pink-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.pattern-skyblue-container {
+  position: absolute;
+  right: 280px;
+  bottom: 110px;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
+.pattern-skyblue-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.tagline-container {
+  font-size: 34px;
+  color: var(--primary-color-pink);
+  width: 200px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  position: absolute;
+  right: 220px;
+  bottom: 330px;
+  line-height: 50px;
+}
+
+.online-word {
+  position: relative;
+  display: inline;
+}
+
+.online-word div {
+  position: absolute;
+  right: -18px;
+  top: 25px;
 }
