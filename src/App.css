@@ -2,4 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* primary color -#57a6af */
+/* primary color pink - #f14e87 */
+
+:root {
+  --primary-color: #57a6af;
+  --primary-color-pink: #f14e87;
+
+  --text-medium: #848484;
 }

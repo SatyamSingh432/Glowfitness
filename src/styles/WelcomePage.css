@@ -1,0 +1,48 @@
+.welcome-page-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-page-continer-top {
+  padding: 80px 60px;
+}
+
+.hero-page-container-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 80px;
+  width: 50%;
+}
+
+.hero-page-container-top-left-heading {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.color-pink {
+  color: var(--primary-color-pink);
+}
+
+.hero-page-container-top-left-btn-container {
+  width: 50%;
+}
+
+.hero-page-container-top-left-sub-heading {
+  width: 65%;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  color: var(--text-medium);
+}
+
+.hero-page-container-top-left-sub-heading span {
+  color: black;
+  font-weight: 600;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Button.css";
-const Button = ({ buttonText, color }) => {
+const Button = ({ buttonText, color, weight = "400" }) => {
   return (
-    <button className="btn" style={{ background: color }}>
+    <button className="btn" style={{ background: color, fontWeight: weight }}>
       {buttonText}
     </button>
   );

@@ -1,7 +1,12 @@
+import WelcomePage from "./pages/WelcomePage";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <WelcomePage />
+    </>
+  );
 }
 
 export default App;
